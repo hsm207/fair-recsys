@@ -10,5 +10,7 @@ The calls to PySpark are executed using Databricks's [dbconnect](https://docs.da
 The main results are in the [notebooks](./notebooks) folder. Execute them sequentially. The files ending with `.py` instead of `.ipynb` means that
 those are Databricks notebooks.
 
+The code that implements the reranking function is in the [preference_reranker.py](./src/preference_reranker.py) file.
+
 # Contributing
 Feel free to raise an Issue if you have any questions, feedback or comments.
